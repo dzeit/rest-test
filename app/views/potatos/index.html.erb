@@ -1,0 +1,6 @@
+<h1>Potato[s]</h1>
+
+<% @potatos.each_with_index do |potato, idx| %>
+  <%= "#{(idx+1)}. #{potato.name}" %>
+  <%= link_to 'Edit', edit_potato_path(potato) %>
+<% end %>

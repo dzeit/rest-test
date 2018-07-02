@@ -1,0 +1,7 @@
+<%= form_for @potato do |f| %>
+  <%= f.label :name, "Name" %>
+  <%= f.text_field :name %><br>
+  <%= f.label :eyes, "Eyes" %>
+  <%= f.text_field :eyes %><br>
+  <%= f.submit "Update Potato" %>
+<% end %>
